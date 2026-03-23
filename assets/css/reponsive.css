@@ -61,9 +61,11 @@
   .slider h2 {
     margin-top: 140px;
     font-size: 24px;
+    margin-left: 15px;
   }
   .slider h2 em {
     font-size: 20px;
+    margin-left: 15px;
   }
   .slider p {
     font-size: 14px;
