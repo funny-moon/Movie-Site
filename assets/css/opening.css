@@ -125,15 +125,6 @@
   }
 }
 @media (max-width: 600px) {
-  #movie {
-    padding: 16px;
-  }
-  #movie .row {
-    padding: 0 16px;
-  }
-  .movie_title ul li a {
-    margin-right: 20px;
-  }
 }
 @media (max-width: 480px) {
 }
