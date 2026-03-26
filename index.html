@@ -32,11 +32,26 @@
     <link rel="stylesheet" href="assets/css/event.css" />
     <link rel="stylesheet" href="assets/css/opening.css" />
     <link rel="stylesheet" href="assets/css/new.css" />
+    <link rel="stylesheet" href="assets/css/help.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
 
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/reponsive.css" />
+    <!-- <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/reponsive.css" /> -->
   </head>
   <body>
+    <!-- 모바일메뉴 -->
+    <nav id="mNav">
+      <a href="#" class="ham"><i class="fa-solid fa-bars"></i></a>
+      <ul>
+        <li><a href="#">영화</a></li>
+        <li><a href="#">큐레이터</a></li>
+        <li><a href="#">영화관</a></li>
+        <li><a href="#">특별관</a></li>
+        <li><a href="#">스토어</a></li>
+        <li><a href="#">이벤트</a></li>
+        <li><a href="#">로그인</a></li>
+      </ul>
+    </nav>
     <header id="header">
       <div class="container">
         <div class="row">
@@ -996,7 +1011,7 @@
             <h2>새로운 영화</h2>
             <div class="new_inner">
               <div class="new_left">
-                <div class="play">
+                <div class="play" id="showTrailer" data-youtube="acUIyAfieHE">
                   <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="60" cy="60" r="60" fill="white" fill-opacity="0.46" />
                     <path
@@ -1081,6 +1096,237 @@
     </section>
     <!-- //new -->
 
+    <section id="help">
+      <div class="container">
+        <div class="row">
+          <div class="help">
+            <article class="help_box1">
+              <h3>공지사항</h3>
+              <div class="notice">
+                <ul>
+                  <li class="active">
+                    <a href="#">전체공지</a>
+                    <ul>
+                      <li>
+                        <dl>
+                          <dt><strong class="bar">전체</strong><em>2026.2.25</em></dt>
+                          <dd>
+                            <a href="#"> [왕과 사는 남자] 개봉3주차 무대인사 개봉3주차 무대인사 개봉3주차 무대인사 </a>
+                          </dd>
+                        </dl>
+                      </li>
+                      <li>
+                        <dl>
+                          <dt><strong class="bar">강동</strong><em>2026.2.25</em></dt>
+                          <dd>
+                            <a href="#"> [왕과 사는 남자] 개봉3주차 무대인사 개봉3주차 무대인사 개봉3주차 무대인사 </a>
+                          </dd>
+                        </dl>
+                      </li>
+                      <li>
+                        <dl>
+                          <dt><strong class="bar">하남</strong><em>2026.2.25</em></dt>
+                          <dd>
+                            <a href="#"> [왕과 사는 남자] 개봉3주차 무대인사 개봉3주차 무대인사 개봉3주차 무대인사 </a>
+                          </dd>
+                        </dl>
+                      </li>
+                      <li>
+                        <dl>
+                          <dt><strong class="bar">송파</strong><em>2026.2.25</em></dt>
+                          <dd>
+                            <a href="#"> [왕과 사는 남자] 개봉3주차 무대인사 개봉3주차 무대인사 개봉3주차 무대인사 </a>
+                          </dd>
+                        </dl>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">영화관공지</a>
+                    <ul>
+                      <li>
+                        <dl>
+                          <dt><strong class="bar">전체</strong><em>2026.2.25</em></dt>
+                          <dd>
+                            <a href="#"> [넘버원] 개봉3주차 무대인사 </a>
+                          </dd>
+                        </dl>
+                      </li>
+                      <li>
+                        <dl>
+                          <dt><strong class="bar">강동</strong><em>2026.2.25</em></dt>
+                          <dd>
+                            <a href="#"> [넘버원] 개봉3주차 무대인사 </a>
+                          </dd>
+                        </dl>
+                      </li>
+                      <li>
+                        <dl>
+                          <dt><strong class="bar">하남</strong><em>2026.2.25</em></dt>
+                          <dd>
+                            <a href="#"> [넘버원] 개봉3주차 무대인사 </a>
+                          </dd>
+                        </dl>
+                      </li>
+                      <li>
+                        <dl>
+                          <dt><strong class="bar">송파</strong><em>2026.2.25</em></dt>
+                          <dd>
+                            <a href="#"> [넘버원] 개봉3주차 무대인사 </a>
+                          </dd>
+                        </dl>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </article>
+            <article class="help_box2">
+              <h3>메가박스 할인카드</h3>
+              <div class="card">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <span class="card_img">
+                        <img src="assets/img/card01.jpg" alt="카드01" />
+                      </span>
+                      <span class="desc">
+                        <strong>T멤버십 할인</strong>
+                        <em>영화 2,000원 현장 즉시 할인(1일5매)</em>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="card_img">
+                        <img src="assets/img/card02.jpg" alt="카드01" />
+                      </span>
+                      <span class="desc">
+                        <strong>T멤버십 할인</strong>
+                        <em>영화 2,000원 현장 즉시 할인(1일5매)</em>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="card_img">
+                        <img src="assets/img/card03.jpg" alt="카드01" />
+                      </span>
+                      <span class="desc">
+                        <strong>T멤버십 할인</strong>
+                        <em>영화 2,000원 현장 즉시 할인(1일5매)</em>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </article>
+            <article class="help_box3">
+              <h3>고객센터</h3>
+              <div class="service">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <span class="img_svg"><img src="assets/icon/comment_duotone_line.svg" alt="" /></span>
+                      <strong>1:1문의</strong>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="img_svg"><img src="assets/icon/Group_duotone_line.svg" alt="" /></span>
+                      <strong>단체관람/대관문의 </strong>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="img_svg"><img src="assets/icon/Paper_duotone_line.svg" alt="" /></span>
+                      <strong>자주 묻는 질문</strong>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="img_svg"><img src="assets/icon/Phone.svg" alt="" /></span>
+                      <strong>분실문 문의/접수</strong>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //help -->
+
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer">
+            <div class="footer_info">
+              <h2><img src="assets/img/logo_footer.png" alt="" /></h2>
+              <ul>
+                <li><a href="#">회사정보</a></li>
+                <li><a href="#">채용정보</a></li>
+                <li><a href="#">제휴/광고/부대사업 문의</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">윤리경영</a></li>
+              </ul>
+              <address>
+                <p>
+                  서울특별시 강남구 도산대로 156, 2층 메가박스중앙(주) (논현동,중앙엠앤비사옥)<br />
+                  <span class="bar2">대표자명 김진선</span>
+                  개인정보보호 책임자 경영지원실 실장 박영진<br />
+                  <span class="bar2">사업자등록번호 211-86-59478</span>
+                  통신판매업신고번호 제 833호
+                </p>
+                <p>Copyright 2014 by MegaboxJoongAng Inc. All right reserved</p>
+              </address>
+            </div>
+            <div class="footer_sns">
+              <ul>
+                <li class="icon s1">
+                  <a href="#"><span class="ir_pm">유투브</span></a>
+                </li>
+                <li class="icon s2">
+                  <a href="#"><span class="ir_pm">페이스북</span></a>
+                </li>
+                <li class="icon s3">
+                  <a href="#"><span class="ir_pm">페이스북</span></a>
+                </li>
+                <li class="icon s4">
+                  <a href="#"><span class="ir_pm">깃허브</span></a>
+                </li>
+                <li class="icon s5">
+                  <a href="#"><span class="ir_pm">인스타그램</span></a>
+                </li>
+                <li class="icon s6">
+                  <a href="#"><span class="ir_pm">메세지</span></a>
+                </li>
+              </ul>
+              <div class="tel">
+                <a href="#">ARS <em>1544-0070</em></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 트레일러 -->
+    <aside id="blackout" class="overlay is-hidden" role="complementary" aria-hidden="true">
+      <div id="trailerModal" class="modal">
+        <div id="trailer"></div>
+        <!--Youtube 플레이어로 대체되는 부분-->
+      </div>
+      <button id="hideTrailer" class="modal_close" type="button">닫기</button>
+    </aside>
+    <!-- //트레일러 -->
+
+    <!-- 트레일러 -->
+    <script src="assets/js/movie.js"></script>
+
     <!-- 스와이퍼 -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script>
@@ -1154,6 +1400,13 @@
       //스크롤 이벤트
       window.addEventListener("scroll", () => {
         let scrollTop = window.scrollY + window.innerHeight / 2;
+        let scrollTop2 = window.scrollY;
+
+        // if (scrollTop2 > 0) {
+        //   document.querySelector("#header").classList.add("active");
+        // } else {
+        //   document.querySelector("#header").classList.remove("active");
+        // }
 
         let event = document.querySelector("#event");
         let eventTop = event.offsetTop;
@@ -1162,6 +1415,52 @@
           document.querySelector(".event_left").classList.add("active");
           document.querySelector(".event_right").classList.add("active");
         }
+
+        let opening = document.querySelector("#opening");
+        let openingTop = opening.offsetTop;
+
+        let openBox = document.querySelectorAll(".open_box > div");
+
+        if (scrollTop > openingTop) {
+          openBox.forEach((div) => {
+            div.classList.add("bounce");
+          });
+        }
+      });
+
+      //공지사항 탭메뉴
+      const tabList = document.querySelectorAll(".notice > ul > li > a ");
+      const tabContents = document.querySelectorAll(".notice > ul> li > ul");
+
+      //전부 숨기고 active만 보이기
+      tabContents.forEach((ul) => {
+        ul.style.display = "none";
+      });
+      document.querySelector(".notice > ul> li.active > ul").style.display = "block";
+
+      tabList.forEach((a) => {
+        a.addEventListener("click", (e) => {
+          e.preventDefault();
+
+          //모든 메뉴 active를 제거하고 전체 컨텐츠 숨기기
+          tabList.forEach((item) => {
+            item.parentElement.classList.remove("active");
+            item.nextElementSibling.style.display = "none";
+          });
+
+          //클릭한 것만 active +보이기
+          a.parentElement.classList.add("active");
+          a.nextElementSibling.style.display = "block";
+        });
+      });
+
+      //모바일메뉴
+      const ham = document.querySelector(".ham");
+      const mNavMenu = document.querySelector("#mNav ul");
+
+      ham.addEventListener("click", (e) => {
+        e.preventDefault();
+        mNavMenu.classList.toggle("active");
       });
     </script>
   </body>

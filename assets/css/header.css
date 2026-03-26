@@ -41,7 +41,9 @@
   background-color: #e3d3f9;
   color: #38116a;
 }
-
+#header.active .header .nav ul li a {
+  color: #fff;
+}
 /* 미이어 쿼리 */
 @media (max-width: 1300px) {
   .container {

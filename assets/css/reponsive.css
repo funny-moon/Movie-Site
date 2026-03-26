@@ -7,6 +7,26 @@
 @media (max-width: 1024px) {
 }
 @media (max-width: 960px) {
+  .footer {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .footer_sns {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #858585;
+  }
+  .footer_info {
+    padding-top: 30px;
+  }
+  .footer_sns .tel {
+    display: none;
+  }
+  .footer_info h2 {
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 768px) {
