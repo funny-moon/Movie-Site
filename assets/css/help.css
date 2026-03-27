@@ -1,6 +1,7 @@
 /* 헬프영역 */
 .help {
-  padding: 100px 0;
+  /* padding: 100px 0; */
+  padding-bottom: 100px;
   display: flex;
   gap: 2%;
 }

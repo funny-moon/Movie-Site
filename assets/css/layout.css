@@ -9,6 +9,7 @@
   z-index: 200;
   backdrop-filter: blur(20px);
   transition: all 0.5s;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 #header.active {
   background-color: #38116a;
